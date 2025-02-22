@@ -31,6 +31,7 @@ const TodoList = () => {
             <h1 className="title">Todo List</h1>
             <div className="form">
                 <InputField
+                    id="new-task"
                     placeholder="Add new task..."
                     value={newTask}
                     onChange={(e) => setNewTask(e.target.value)}
